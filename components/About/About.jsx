@@ -8,7 +8,7 @@ const About = () => {
 
   
     const openPdfFile = () => {
-      window.open('public/resume.pdf', '_blank'); // Open the PDF file in a new tab
+      window.open('src/assets/resume.pdf', '_blank'); // Open the PDF file in a new tab
     };
   return (
     <>
