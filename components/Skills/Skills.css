@@ -1,0 +1,84 @@
+.skills {
+    background-image: url('../Skills/skills.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.card{
+    width: 100px; /* Adjust the width of the card */
+    height: 100px; /* Adjust the height of the card */
+}
+.card-img {
+    max-width: 100%;
+    /* Set the maximum width of the image to 100% of its container */
+    max-height: 100%;
+    /* Set the maximum height of the image to 100% of its container */
+    object-fit: cover;
+    /* Maintain aspect ratio and cover the entire container */
+    border-radius: 8px;
+}
+
+.card-title{
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+    font-size: x-large;
+    color: rgb(178, 211, 218);
+    font-weight: bolder;
+    font-family:cursive;
+    
+}
+
+
+
+.card1 {
+    margin-top: 8vw;
+    margin-left: 55vw;
+}
+
+.card2 {
+    margin-top: 8vw;
+    margin-left: 55vw;
+}
+
+.card3 {
+    margin-top: 8vw;
+    margin-left: 55vw;
+}
+
+.card4 {
+    margin-top: -35.7vw;
+    margin-left: 70vw;
+}
+
+.card5 {
+    margin-top: 8vw;
+    margin-left: 70vw;
+}
+.card6 {
+    margin-top: 8vw;
+    margin-left: 70vw;
+}
+
+.card7 {
+    margin-top: -35.7vw;
+    margin-left: 85vw;
+}
+
+.card8 {
+    margin-top: 8vw;
+    margin-left: 85vw;
+}
+.card9 {
+    margin-top: 8vw;
+    margin-left: 85vw;
+}
+
+

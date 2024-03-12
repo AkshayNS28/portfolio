@@ -1,0 +1,11 @@
+div#memories{
+    align-items: center;
+    color: #000000;
+    justify-content: stretch;
+    width: 97%;
+    padding: 20px;
+    text-align: center;
+    margin-top: 250px;
+    font-size: 4.5vw;
+    font-weight: bolder;
+}
