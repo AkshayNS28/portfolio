@@ -41,3 +41,84 @@ nav#navbar a.green{
     color: #02cc7f;
     transform: scale(1.3);
  }
+
+
+ /************responive**********/
+
+/* Media Query for devices up to 768px wide */
+@media only screen and (min-width:1020px) and (max-width:1450px) {
+    nav#navbar {
+        padding: 8px;
+        /* Adjust padding for smaller devices */
+    }
+
+    nav#navbar li {
+        margin-right: 50px;
+        align-items: center;
+        justify-content: center;
+        /* Adjust the spacing between navbar items for smaller devices */
+    }
+
+    nav#navbar a {
+        font-size: medium;
+        /* Adjust font size for smaller devices */
+    }
+
+}
+
+/* Media Query for devices up to 768px wide */
+@media only screen and (min-width:750px)and (max-width:1020px) {
+    nav#navbar {
+        padding: 8px;
+        /* Adjust padding for smaller devices */
+    }
+
+    nav#navbar li {
+        margin-right: 50px;
+        /* Adjust the spacing between navbar items for smaller devices */
+    }
+
+    nav#navbar a {
+        font-size: medium;
+        /* Adjust font size for smaller devices */
+    }
+}
+
+/* Media Query for devices up to 480px wide */
+@media only screen and (max-width:450px) {
+    nav#navbar {
+        padding: 10px;
+        
+        background-color: rgba(0, 0, 0, 0.4);
+        max-width: 30%;;
+       
+        /* Further adjust padding for even smaller devices */
+    }
+
+    nav#navbar li {
+        margin-right: 40px;
+        /* Further adjust spacing between navbar items for even smaller devices */
+        
+    }
+
+
+    nav#navbar ul {
+        margin-left: 50px;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        flex-direction: column;
+        align-content: stretch;
+        align-items: flex-start;
+    }
+
+
+
+
+    nav#navbar a {
+        font-size: large;
+        /* Further adjust font size for even smaller devices */
+    }
+}

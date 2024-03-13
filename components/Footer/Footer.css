@@ -19,3 +19,34 @@ footer.footer{
     align-items: top;
    
 }
+
+/* Media Query for devices up to 768px wide */
+@media only screen and (min-width:1020px) and (max-width:1450px) {
+    .footer p {
+        font-size: 12px; /* Adjust font size for smaller devices */
+        margin-left: 0vw;
+        margin-bottom: 0.5vw;
+    }
+}
+
+
+/* Media Query for devices up to 768px wide */
+@media only screen and (min-width:750px) and (max-width:1020px) {
+    .footer p {
+        font-size: 12px; /* Adjust font size for smaller devices */
+        margin-left: 0vw;
+        margin-bottom: 0.5vw;
+    }
+}
+
+/* Media Query for devices up to 480px wide */
+@media only screen and (max-width: 450px) {
+    .footer p {
+        font-size: 10px;
+        margin-left: 0vw;
+        margin-bottom: 1vw;
+         /* Further adjust font size for even smaller devices */
+    }
+
+  
+}
