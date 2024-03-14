@@ -46,9 +46,9 @@ const Skills = () => {
         </div>
 
         <div class="card sql">
-          <img src="Images\skills_pic\sql.svg" class="card-img" alt="sql"></img>
+          <img src="Images\skills_pic\sql.png" class="card-img sql" alt="sql"></img>
           <div class="card-body">
-            <h5 class="card-title">SQL</h5>  
+            <h5 class="sql-title">SQL</h5>  
           </div>
         </div>
 
@@ -67,9 +67,9 @@ const Skills = () => {
         </div>
 
         <div class="card da">
-          <img src="Images\skills_pic\da.png" class="card-img" alt="da"></img>
+          <img src="Images\skills_pic\da.png" class="da-img" alt="da"></img>
           <div class="card-body">
-            <h5 class="card-title">Data Analytics</h5>  
+            <h5 class="da-title">Data Analytics</h5>  
           </div>
         </div>
 

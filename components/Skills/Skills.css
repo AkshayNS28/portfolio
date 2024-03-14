@@ -12,7 +12,7 @@
 }
 
 .card{
-    position: relative;
+    position:relative;
     width: 100px; /* Adjust the width of the card */
     height: 100px; /* Adjust the height of the card */
 }
@@ -69,8 +69,8 @@
     left: 15vw;
 }
 .sql {
-    top: 05vw;
-    left: 65vw;
+    top: 01vw;
+    left: 58vw;
 }
 
 .css {
@@ -79,22 +79,59 @@
 }
 
 .express {
-    top: -15vw;
-    left: 85vw;
+    top: -24vw;
+    left: 78vw;
 }
 .da {
-    top: 1vw;
-    left: 79vw;
+    top: -4vw;
+    left: 75vw;
 }
 
+.da-img{
+        width: 300%;
+        height: 200%;
+        max-width: 500%;
+        max-height: 500%;
+}
+
+
+.da-title{
+    margin-top: -30px;
+    text-align: center;
+    justify-content: center;
+    font-size: 2vw;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-family:cursive;
+    text-wrap: nowrap;
+}
+
+.card-img.sql {
+    width: 300%;
+    height: 300%;
+    max-width: 500%;
+    max-height: 500%;
+}
+.sql-title{
+    margin-top: -50px;
+    margin-left: 5vw;
+    text-align: center;
+    justify-content: center;
+    font-size: 2vw;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-family:cursive;
+    text-wrap: nowrap;
+}
 
 
 /********** RESPONSIVE **********/
 @media only screen and (min-width:0px) and (max-width: 750px) {
     .skills {
-        width: 111%;
-        height: 111vh;
-}
+        width: 125%;
+        height: 150vh;
+        overflow-y: auto;
+    }
 .card{
     position: absolute;
     width: 50px; /* Adjust the width of the card */
@@ -110,31 +147,31 @@
 
 .javascript {
     top: 10vw;
-    left: 60vw;
+    left: 65vw;
 }
 
 .react {
-    top: 90vw;
-    left: 40vw;
+    top: 84vw;
+    left: 39vw;
 }
 
 .html {
-    top: 48vw;
-    left: 45vw;
+    top: 61vw;
+    left: 73vw;
 }
 
 .node {
-    top: 105vw;
-    left: 70vw;
+    top: 100vw;
+    left: 95vw;
 }
 .sql {
-    top: 145vw;
-    left: 75vw;
+    top: 125vw;
+    left: 55vw;
 }
 
 .css {
-    top: 55vw;
-    left: 80vw;
+    top: 35vw;
+    left: 98vw;
 }
 
 .express {
@@ -142,7 +179,21 @@
     left: 10vw;
 }
 .da {
-    top: 155vw;
-    left: 12vw;
+    top: 145vw;
+    left: 8vw;
 }
+.da-title{
+    margin-top: -30px;
+    font-size: 4vw;
+    font-weight: bolder;
+
+}
+.sql-title{
+    margin-top: -30px;
+    margin-left: 20vw;
+    font-size: 4vw;
+    font-weight: bolder;
+
+}
+
 }
