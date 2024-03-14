@@ -1,5 +1,5 @@
 .skills {
-    background-image: url('../Skills/skills.png');
+    background-image: url('../Skills/skills.jpg');
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
@@ -8,10 +8,11 @@
     top: 0;
     width: 100%;
     height: 100vh;
-    overflow-y: hidden;
+    overflow-y:auto;
 }
 
 .card{
+    position: relative;
     width: 100px; /* Adjust the width of the card */
     height: 100px; /* Adjust the height of the card */
 }
@@ -29,56 +30,119 @@
     margin-top: 10px;
     text-align: center;
     justify-content: center;
-    font-size: x-large;
-    color: rgb(178, 211, 218);
+    font-size: 2vw;
+    color: rgb(255, 255, 255);
     font-weight: bolder;
     font-family:cursive;
+    text-wrap: nowrap;
     
 }
 
-
-
-.card1 {
-    margin-top: 8vw;
-    margin-left: 55vw;
+.card{
+    width: 70px; /* Adjust the width of the card */
+    height: 70px; /* Adjust the height of the card */
 }
 
-.card2 {
-    margin-top: 8vw;
-    margin-left: 55vw;
+.python {
+    
+    top: 15vw;
+    left: 40vw;
 }
 
-.card3 {
-    margin-top: 8vw;
-    margin-left: 55vw;
+.javascript {
+    top: 5vw;
+    left: 20vw;
 }
 
-.card4 {
-    margin-top: -35.7vw;
-    margin-left: 70vw;
+.react {
+    top: 13vw;
+    left: 7vw;
 }
 
-.card5 {
-    margin-top: 8vw;
-    margin-left: 70vw;
-}
-.card6 {
-    margin-top: 8vw;
-    margin-left: 70vw;
+.html {
+    top: -5vw;
+    left: 60vw;
 }
 
-.card7 {
-    margin-top: -35.7vw;
-    margin-left: 85vw;
+.node {
+    top: 18vw;
+    left: 15vw;
+}
+.sql {
+    top: 05vw;
+    left: 65vw;
 }
 
-.card8 {
-    margin-top: 8vw;
-    margin-left: 85vw;
+.css {
+    top: 2vw;
+    left: 33vw;
 }
-.card9 {
-    margin-top: 8vw;
-    margin-left: 85vw;
+
+.express {
+    top: -15vw;
+    left: 85vw;
+}
+.da {
+    top: 1vw;
+    left: 79vw;
 }
 
 
+
+/********** RESPONSIVE **********/
+@media only screen and (min-width:0px) and (max-width: 750px) {
+    .skills {
+        width: 111%;
+        height: 111vh;
+}
+.card{
+    position: absolute;
+    width: 50px; /* Adjust the width of the card */
+    height: 50px; /* Adjust the height of the card */
+}
+.card-title{
+    font-size: 4vw;
+}
+.python {
+    top: 60vw;
+    left: 10vw;
+}
+
+.javascript {
+    top: 10vw;
+    left: 60vw;
+}
+
+.react {
+    top: 90vw;
+    left: 40vw;
+}
+
+.html {
+    top: 48vw;
+    left: 45vw;
+}
+
+.node {
+    top: 105vw;
+    left: 70vw;
+}
+.sql {
+    top: 145vw;
+    left: 75vw;
+}
+
+.css {
+    top: 55vw;
+    left: 80vw;
+}
+
+.express {
+    top: 110vw;
+    left: 10vw;
+}
+.da {
+    top: 155vw;
+    left: 12vw;
+}
+}

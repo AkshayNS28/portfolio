@@ -3,10 +3,8 @@ import Navbar from '../Navbar/Navbar'
 import Footer from '../Footer/Footer'
 import '../About/About.css'
 
-
 const About = () => {
 
-  
     const openPdfFile = () => {
       window.open('Images/resume.png', '_blank'); // Open the PDF file in a new tab
     };

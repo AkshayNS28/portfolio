@@ -8,7 +8,7 @@ footer.footer{
     display: flex; /* Use flexbox */
     justify-content: center; /* Center content horizontally */
     align-items: center; /* Center content vertically */
-    z-index: 100; /* Ensure the footer stays on top of other content */
+    z-index: 0; /* Ensure the footer stays on top of other content */
     margin-bottom: 0px;
     
 }
@@ -19,6 +19,7 @@ footer.footer{
     align-items: top;
    
 }
+
 
 /* Media Query for devices up to 768px wide */
 @media only screen and (min-width:1020px) and (max-width:1450px) {

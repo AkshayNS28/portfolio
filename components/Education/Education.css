@@ -1,76 +1,62 @@
-.education{
+.education {
     background-image: url('../Education/edu.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     margin: 0;
     padding: 0;
-    top:0;
-    width:100%;
+    top: 0;
+    width: 100%;
     height: 100vh;
-    overflow-y: hidden;
+    overflow-y: auto;
 }
 
-#degree h3{
+#degree h3 {
     margin-top: 80px;
 }
 
-h3{
-    margin-left:70px;
-    color:#000000;
-    font-size:2vw;
-    text-align:justify;
+h3 {
+    margin-left: 70px;
+    color: #000000;
+    font-size: 2vw;
+    text-align: justify;
     font-weight: bolder;
 }
-h1{
+
+h1 {
     font-size: 2.2vw;
     color: white;
 }
 
 
-#degree h1{
+#degree h1 {
     margin-top: 10px;
     margin-left: -37vw;
     padding-left: 20px;
 }
 
-#degree h1::before {
-    content: '\2023'; /* Unicode character for a bullet (•) */
-    position: absolute; /* Position the bullet absolutely */
-    left: 6vw; /* Position the bullet at the beginning of the <h1> */
-  }
 
-#pu h1{
+
+#pu h1 {
     margin-top: 10px;
     margin-left: -41vw;
     padding-left: 20px;
 }
 
-#pu h1::before {
-    content: '\2023'; /* Unicode character for a bullet (•) */
-    position: absolute; /* Position the bullet absolutely */
-    left: 6vw; /* Position the bullet at the beginning of the <h1> */
-  }
 
-#sslc h1{
+
+#sslc h1 {
     margin-top: 10px;
     margin-left: -47.5vw;
     padding-left: 20px;
 }
 
-#sslc h1::before {
-    content: '\2023'; /* Unicode character for a bullet (•) */
-    position: absolute; /* Position the bullet absolutely */
-    left: 6vw; /* Position the bullet at the beginning of the <h1> */
-  }
 
-
-
-p{
-    color:white;
+p {
+    color: white;
     margin-top: 10px;
     margin-left: 120px;
-    font-size:x-large;
+    font-size: x-large;
 }
 
 
@@ -80,16 +66,21 @@ p{
         margin-left: 50px;
         font-size: 5VW;
     }
+
     h3 {
         margin-left: 15px;
         font-size: 5vw;
     }
-    #sslc h1, #pu h1, #degree h1 {
+
+    #sslc h1,
+    #pu h1,
+    #degree h1 {
         margin-left: 3vw;
         font-size: 6vw;
-        text-align:left;
+        text-align: left;
     }
-    div #degree{
+
+    div #degree {
         margin-top: 50vw;
     }
-    }
+}
